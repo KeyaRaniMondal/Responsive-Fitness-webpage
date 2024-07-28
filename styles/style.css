@@ -11,7 +11,7 @@
     background: linear-gradient(360.00deg, rgb(7, 7, 7), rgb(51, 50, 50) 100%);
     position: relative;
     width: 1440px;
-    height: 715px;
+    height:715px;
     margin: 0;
     padding-top: 2%;
 }
@@ -179,8 +179,8 @@ color: rgb(255, 255, 255);
 .second-part {
     text-align: center;
     background-color: rgb(7, 7, 7);
-    width: 1440px;
-    height: 715px;
+    width:1440px;
+    height:1500px;
     padding-top: 1%;
 }
 
@@ -199,15 +199,30 @@ h1 {
     padding-left: 30%;
 }
 .habit-img img{
-width:181px;
-height: 180px;
+width:60%;
+height: 50%;
 border-radius: 50%;
 display: block;
 }
 .habit-img{
     display: flex;
-    justify-content: space-between;
-    width: 60%;
+    justify-content: space-between; 
+   width: 65%;
     padding-left: 22%;
     margin-top: 5%;
 }
+h6{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+font-weight: 600;
+padding-right: 30%;
+}
+.habit-img p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+font-weight: 400;
+width: 80%;
+padding-left: 1%;
+margin-top: -10%;
+}
+
