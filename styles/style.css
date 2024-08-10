@@ -330,22 +330,54 @@ table{
     background: rgb(27, 25, 25);
     width: 100%;
     height: 50%;
+    display: flex;
+    justify-content:space-between;
+}
+.fit{
+    margin-left: 5%;
+    padding-top: 3%;
+    width: 30%;
 }
 .fit h2{
     color: rgb(230, 83, 60);
     font-size: 70px;
 font-weight: 800;
-margin-left: 5%;
-padding-top: 3%;
 }
 .fit p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
 font-weight: 400;
-margin-left: 5%;
-margin-top: -3%;
+margin-top: -8%;
+
+}
+.get{
+    margin-left: 15%;
+margin-top: 2%;
 width: 30%;
 }
-/* .get h3{
+.get h3{
     color: rgb(255, 255, 255);
-} */
+    font-size: 32px;
+font-weight: 700;
+}
+.get h4{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+font-weight: 400;
+}
+.started
+{
+    /* margin-left: 5%; */
+margin-top: 2%;
+width: 30%;
+}
+.started h3{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+font-weight: 700;
+}
+.started h4{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+font-weight: 400;
+}
