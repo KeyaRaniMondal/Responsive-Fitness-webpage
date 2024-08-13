@@ -1,10 +1,12 @@
  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.inter-font {
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .inter-font {
      font-family: "Inter", sans-serif;
      font-optical-sizing: auto;
      font-weight: normal;
@@ -110,6 +112,9 @@
      height: 54px;
      border: none;
      margin-top: 8%;
+     color: rgb(255, 255, 255);
+     font-size: 18px;
+     font-weight: 600;
  }
 
  .btn2 {
@@ -188,8 +193,8 @@ color: rgb(255, 255, 255);
 
  .second-part {
      background-color: rgb(7, 7, 7);
-     width:1440px;
-height:2500px;
+     width: 1440px;
+     height: 2500px;
      padding-top: 7%;
  }
 
@@ -205,14 +210,14 @@ height:2500px;
      font-size: 14px;
      font-weight: 400px;
      width: 42%;
-text-align: center;
+     text-align: center;
      padding-top: 1%;
-margin-left: 27%;
+     margin-left: 27%;
  }
 
  .habit-img img {
-    width: 60%;
-    height: 65%;
+     width: 60%;
+     height: 65%;
      border-radius: 50%;
      display: block;
  }
@@ -237,7 +242,7 @@ margin-left: 27%;
      font-size: 14px;
      font-weight: 400;
      width: 80%;
-  margin-left: -5%;
+     margin-left: -5%;
      margin-top: 5%;
  }
 
@@ -266,12 +271,15 @@ margin-left: 27%;
      font-weight: 400;
      text-align: left;
      margin-top: 1%;
-    margin-left: 3%;
+     margin-left: 3%;
  }
 
  .extra-mile .btn1 {
      margin-top: 3%;
      margin-left: 3%;
+     color: rgb(255, 255, 255);
+     font-size: 18px;
+     font-weight: 600;
  }
 
  .run img {
@@ -307,13 +315,13 @@ margin-left: 27%;
      font-weight: 900;
  }
 
-.cal-chart table
-{
-width:30%;
-height: 50%;
-margin-left: 5%;
-/* border: 2px solid yellow; */
-}
+ .cal-chart table {
+     width: 30%;
+     height: 50%;
+     margin-left: 5%;
+     /* border: 2px solid yellow; */
+ }
+
  .chart th {
      color: rgb(255, 255, 255);
      font-size: 16px;
@@ -327,12 +335,16 @@ margin-left: 5%;
      font-weight: 400;
      border: 1px solid rgba(255, 255, 255, 0.1);
  }
-caption{
-    padding: 10%;
-}
-th,td{
-    padding: 3%;
-}
+
+ caption {
+     padding: 10%;
+ }
+
+ th,
+ td {
+     padding: 3%;
+ }
+
  /* Calculate BMI */
  .bmi {
      color: rgb(255, 255, 255);
@@ -341,73 +353,144 @@ th,td{
      float: right;
      margin-top: -21%;
  }
-.bmi p{
-    width: 90%;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
-font-weight: 400;
-   margin-left: -0%;
-   text-align: left;
-}
-input[type=text] {
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.1);
-    color: white;
-  }
-#f1{
-width: 17rem;
-  }
- #f2{
-width: 17rem;
-  }
-  #f3{
-width: 17rem;
-  }
- #f4{
-width:17rem;
-  }
- #f5{
-width: 36rem;
-  }
-.line1{
-    display: flex;
-justify-content: space-between;
-width: 80%;
-margin-top: 3%;
-}
-.line2{
-    display: flex;
-justify-content: space-between;
-width: 80%;
-}
-.info{
-background-color: rgb(34, 34, 34);
-height: 20%;
-margin-top: 5%;
-}
 
-/* creating team section */
-.team{
-    width: 100%;
-    height: 1000px;
-}
-.team h2{
-    color: rgb(255, 255, 255);
-    font-size: 48px;
-font-weight: 900;
-}
-.team p{
-margin-top: -2%;
-}
+ .bmi p {
+     width: 90%;
+     color: rgba(255, 255, 255, 0.5);
+     font-size: 14px;
+     font-weight: 400;
+     margin-left: -0%;
+     text-align: left;
+ }
 
-.team .team-img{
+ input[type=text] {
+     padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+     border: none;
+     border-radius: 8px;
+     background: rgba(255, 255, 255, 0.1);
+     color: white;
+ }
+
+ #f1 {
+     width: 17rem;
+     color: rgba(255, 255, 255, 0.6);
+     font-size: 16px;
+     font-weight: 400;
+ }
+
+ #f2 {
+     width: 17rem;
+     color: rgba(255, 255, 255, 0.6);
+     font-size: 16px;
+     font-weight: 400;
+ }
+
+ #f3 {
+     width: 17rem;
+     color: rgba(255, 255, 255, 0.6);
+     font-size: 16px;
+     font-weight: 400;
+ }
+
+ #f4 {
+     width: 17rem;
+     color: rgba(255, 255, 255, 0.6);
+     font-size: 16px;
+     font-weight: 400;
+ }
+
+ #f5 {
+     width: 36rem;
+     color: rgba(255, 255, 255, 0.6);
+     font-size: 16px;
+     font-weight: 400;
+ }
+
+ .line1 {
+     display: flex;
+     justify-content: space-between;
+     width: 80%;
+     margin-top: 3%;
+ }
+
+ .line2 {
+     display: flex;
+     justify-content: space-between;
+     width: 80%;
+ }
+
+ .bmi .btn1 {
+     margin-top: 2%;
+     color: rgb(255, 255, 255);
+     font-size: 18px;
+     font-weight: 600;
+ }
+
+ .info {
+     background-color: rgb(34, 34, 34);
+     height: 18%;
+     margin-top: 5%;
+ }
+
+ /* creating team section */
+ .team {
+     width: 100%;
+     height: 1000px;
+ }
+
+ .team h2 {
+     color: rgb(255, 255, 255);
+     font-size: 48px;
+     font-weight: 900;
+     margin-top: 5%;
+     text-align: center;
+ }
+
+ .team p {
+     margin-top: 0;
+ }
+ .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
-    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    max-width: 1000px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem 1rem 1rem 1rem;
+    margin-left: 14%;
+    border-radius: 18px;
+    margin-top: 3%;
+}
+
+.trainer {
+    border-radius: 18px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.trainer img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.trainer .info {
+    padding: 15px;
+}
+
+.trainer h5 {
+    margin-top:-20%;
+    margin-left: 5%;
+    color: azure;
+    font-size: 1rem;
+}
+.trainer p {
+    margin-left:-9% ;
+}
+
+.trainer:hover {
+    transform: scale(1.05);
 }
  /* creating footer section */
  .foot {
@@ -473,7 +556,7 @@ margin-top: -2%;
      font-size: 23px;
      font-weight: 400;
  }
- .copy
- {
-    background-color: azure;
+
+ .copy {
+     background-color: azure;
  }
