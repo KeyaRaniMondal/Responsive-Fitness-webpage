@@ -1117,6 +1117,14 @@ text-align: center;
    margin-left: -10rem; */
    visibility: hidden;
     }
+    .tip h2{
+        color: rgb(230, 83, 60);
+        font-size: 50px;
+        visibility: visible;  
+        width: 19rem;
+        margin-left: -10rem;
+        
+    }
     .tips p{
         visibility: hidden;
     }
