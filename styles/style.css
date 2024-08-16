@@ -83,6 +83,7 @@
 
 .header-title span {
     font-family: 'Miama', sans-serif;
+    font-size:8rem;
 }
 
 .header-title h2 {
@@ -91,6 +92,7 @@
     height: 240px;
     padding: 0px;
     font-size: 78px;
+    margin-bottom: 10rem;
 }
 
 .header-content {
@@ -204,7 +206,7 @@
 .second-part {
     background-color: rgb(7, 7, 7);
     width: 1440px;
-    height: 210rem;
+    height: 190rem;
     padding-top: 7%;
 }
 
@@ -669,6 +671,9 @@ text-align: center;
         font-size: 6rem;
         margin-left: -7rem;
     }
+    .header-title span {
+font-size: 10rem;
+    }
 
     .header-content p {
         width: 50rem;
@@ -781,7 +786,7 @@ text-align: center;
     .second-part {
         background-color: rgb(7, 7, 7);
         width: 75rem;
-        height: 820rem;
+        height: 830rem;
         padding-top: 7%;
         margin-top: -5rem;
     }
@@ -1109,31 +1114,29 @@ text-align: center;
    /* creating tips section */
   
    .tips h2{
-       /* color: rgb(230, 83, 60);
-   font-size: 50px;
-   margin-top: -17rem;
+       color: rgb(230, 83, 60);
+   font-size: 55px;
+   margin-top: 292rem;
+   margin-left: 25rem;
    text-align: center;
-   width: 19rem;
-   margin-left: -10rem; */
-   visibility: hidden;
+   width: 25rem;
+   /* visibility: hidden; */
     }
     .tip h2{
         color: rgb(230, 83, 60);
         font-size: 50px;
         visibility: visible;  
         width: 19rem;
+        gap: 1rem;
+        margin-top: -15rem;
         margin-left: -10rem;
-        
-    }
-    .tips p{
-        visibility: hidden;
     }
     .tips img{
        width: 35rem;
        height: 22rem;
        margin-left: 14rem;
-       margin-top: 2rem;
-       margin-right: 5rem;
+       margin-top: 4rem;
+       margin-left: 7rem;
     }
     .tip{
        color: rgb(209, 230, 248);
@@ -1147,8 +1150,6 @@ text-align: center;
        width: 75rem;
        height: 30rem;
        background: rgb(27, 25, 25);
-       margin-top: 300rem;
-
     }
     /* creating footer section */
 .foot {
@@ -1159,7 +1160,6 @@ text-align: center;
 }
 
 .fit {
-   /* margin-left: 11%; */
    padding-top: 3%;
    width: 30%;
 }
