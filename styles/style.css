@@ -259,7 +259,7 @@ h1 {
 
 .extra {
     width: 75%;
-    height: 15%;
+    height: 22rem;
     background: rgb(34, 34, 34);
     margin-left: 13%;
     border-radius: 18px;
@@ -441,7 +441,7 @@ input[type=text] {
 
 .info {
     background-color: rgb(34, 34, 34);
-    height: 18%;
+    height: 27rem;
     margin-top: 5%;
 }
 
